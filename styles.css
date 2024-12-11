@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Estilos adicionais */
+body {
+    background-color: #10a729;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    margin-top: 50px;
+    background-color: #1a8844af;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.avatar {
+    font-size: 120px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    display: inline-block;
+    text-align: center;
+    line-height: 120px;
+}
+.header {
+    text-align: center;
+}
+.header h2, .header h3 {
+    margin: 10px 0;
+}
+.highlight-bar {
+    background-color: #b9da61; /* Azul claro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.balance-container {
+    background-color: #12755421;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.saldo-disponivel {
+    font-size: 18px;
+    color: #0056b3;
+    font-weight: bold;
+}
+.valor-saldo {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+.investment-container {
+    background-color: #07131f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.investment-container h3 {
+    font-size: 20px;
+    color: #0056b3;
+    margin-top: 20px;
+}
+.investment-container p {
+    font-size: 16px;
+    color: #333;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    .avatar {
+        font-size: 100px; /* Ajuste o tamanho conforme necessário */
+        line-height: 100px;
+    }
+    .saldo-disponivel, .valor-saldo {
+        font-size: 16px;
+    }
+}

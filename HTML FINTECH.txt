@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assents/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <div class="header text-center">
+            <div class="avatar">😎</div>
+            <h2>Marcelo</h2>
+            <h3>Bem-vindo a Investing Money</h3>
+        </div>
+
+        <!-- Saldo -->
+        <div class="balance-container text-center">
+            <div class="highlight-bar">
+                <p class="saldo-disponivel">Saldo disponível</p>
+                <strong class="valor-saldo">R$ 55.000,00</strong>
+            </div>
+        </div>
+
+        <!-- Investimentos -->
+        <div class="investment-container text-center">
+            <h3>Seus investimentos</h3>
+            <div class="highlight-bar">
+                <p>Renda fixa: <span class="text-success">R$ 30.000,00</span></p>
+            </div>
+            <div class="highlight-bar">
+                <p>Fundos: <span class="text-warning">R$ 10.000,00</span></p>
+            </div>
+            <div class="highlight-bar">
+                <p>Bolsa de valores: <span class="text-danger">R$ 15.000,00</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bibliotecas JS do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
